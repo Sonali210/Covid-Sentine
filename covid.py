@@ -222,7 +222,7 @@ def social_distancing():
 			    bbox=[float(v) for v in out[2][0][i]]
 			    label=classes[classId]
 			
-			    if (score>0.50 and label=='person'):
+			    if (score>0.60 and label=='person'):
 				    x=bbox[1]*cols
 				    y=bbox[0]*rows
 				    right=bbox[3]*cols
