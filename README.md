@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Sonali210/Covid-Sentine/issues)
 [![Issues](https://img.shields.io/github/issues/Sonali210/Covid-Sentine.svg?logo=github)](https://github.com/Sonali210/Covid-Sentine/issues)
-[![MIT License](https://img.shields.io/github/license/Sonali210/Covid-Sentine.svg?style=flat-square)](https://github.com/Sonali210/Covid-Sentine/blob/master/LICENSE)
+[![Apache 2.0 License](https://img.shields.io/github/license/Sonali210/Covid-Sentine.svg?style=flat-square)](https://github.com/Sonali210/Covid-Sentine/blob/master/LICENSE)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <h3 align="center">AI Based Mask Detection System</h3>
@@ -35,6 +35,7 @@
 It is a software that can take feed from existing CCTV/IP cameras and show the results.
 
 ## :clap: VideoLink as a sample output for my mask detection system
+[![Watch the video](https://imgur.com/6G0gbPG.jpg)](https://drive.google.com/file/d/1jKcx7tS5amD0SMrpNnpJ9u2GSCvxtOhS/view?usp=sharing)
 
 
 ## :clap: Use Cases
@@ -72,11 +73,8 @@ It is a software that can take feed from existing CCTV/IP cameras and show the r
 ## :handshake: Use Cases
 
 ✔ Can be used at hospitals<br />
-
 ✔ Can be used at Railway Stations<br />
-
 ✔ Can be used at Crowded Areas<br />
-
 ✔ Can be used at Market Places and Malls<br />
 
 <h2 align="center">AI Based Redness of Eye Detection</h2>
@@ -106,11 +104,8 @@ It is a software that can take feed from existing cameras and show the results.
 ## :innocent: Motivation
 
 ✔ We have considered the Human Face as Region of Interest to calculate the thermal temperature<br />
-
 ✔ Our system will couple AI Based ROI Detection + Temperature Calculation in ROI<br />
-
 ✔ Things to look for: If a person carries coffee or any hot food item, it won’t be considered for temperature calculation. <br />
-
 ✔ Our software detects red eyes and raises alert for probability of person being infected.<br />
 
 
@@ -118,7 +113,9 @@ It is a software that can take feed from existing cameras and show the results.
 :movie_camera: [YouTube Demo Link](link here)
 
 ## 🚀&nbsp; Installation
-It is a software that can take feed from existing CCTV/IP cameras and show the results.
+It is a software that can take feed from existing CCTV/IP cameras and show the results.<br />
+
+We combined all the solutions together and made a single Graphical User Interface.<br />
 
 To set up on your local:
 1. Clone the repo
@@ -137,28 +134,13 @@ $ pip3 install -r requirements.txt
 ```
 
 ## :bulb: Working
-
  Open terminal. Go into the cloned project directory folder and type the following command:
-1. For face mask detection:
 ```
-$ python facemask.py
-```
-
-2. For Social Distancing: 
-```
-$ python3 
-```
-
-3. For conjunctivitis:
-```
-$ python3
+$ python covid.py
 ```
 
 ## :heart: Owner
 Made with :heart:&nbsp; by [Gaurav Singh](https://github.com/gaurav82692) , [Sarthak Srivastava](https://github.com/codebugged) and [Sonali](https://github.com/Sonali210)
-
-## :+1: Credits
-
 
 ## :eyes: License
 Apache License 2.0
