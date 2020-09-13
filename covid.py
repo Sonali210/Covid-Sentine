@@ -222,7 +222,7 @@ def social_distancing():
 			    bbox=[float(v) for v in out[2][0][i]]
 			    label=classes[classId]
 			
-			    if (score>0.3 and label=='person'):
+			    if (score>0.50 and label=='person'):
 				    x=bbox[1]*cols
 				    y=bbox[0]*rows
 				    right=bbox[3]*cols
@@ -248,7 +248,7 @@ def social_distancing():
 				    right2=out[2][0][j][3]*cols
 				    bottom2=out[2][0][j][2]*rows
 				    # print(dist[i][j])
-				    if((i!=j) & (dist[i][j]<=180.0)):
+				    if((i!=j) & (dist[i][j]<=60.0)):
 					    cv2.rectangle(img, (int(x1), int(y1)), (int(right1),int(bottom1)), (0,0,255), thickness=2)
 					    cv2.putText(img,"person",(int(x), int(y+25)),1,2,(255,0,0),2)
 					    cv2.rectangle(img, (int(x2), int(y2)), (int(right2),int(bottom2)), (0,0,255), thickness=2)
