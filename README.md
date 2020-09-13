@@ -13,6 +13,8 @@
   <h4>It is used to detect whether people are wearing the masks or not.</h4>
 </div>
 
+This snippet is based on a trained neural network (using transfer learning) on custom data set. This is able to detect people with and without face mask using object detection technique<br />
+
 ## :innocent: Motivation
 
 <div align= "center">
@@ -26,7 +28,7 @@
 
 ## :star: Unique Selling Point (Mask Detection System)
 
-✔Red: mask Pink: no_mask : with their detection probabilities on top of each bounding box.<br />
+✔Green: mask Red: no_mask : with their detection probabilities on top of each bounding box.<br />
 ✔This system is highly scalable and can detect multiple streams in optimal time.<br />
 ✔This has great use in surveillance and security purpose to find out who all are following the rules.<br />
 
@@ -101,6 +103,8 @@ It is a software that can take feed from existing cameras and show the results.
   <h4>This snippet of software will aim at detecting the people who have high body temperatures.</h4>
 </div>
 
+![Screenshot (531)](https://user-images.githubusercontent.com/65444708/93019766-af4c6200-f5f6-11ea-93ce-5e9862be6051.png)
+
 ## :innocent: Motivation
 
 ✔ We have considered the Human Face as Region of Interest to calculate the thermal temperature<br />
@@ -110,12 +114,13 @@ It is a software that can take feed from existing cameras and show the results.
 
 
 ## :hourglass: Project Demo
-:movie_camera: [YouTube Demo Link](link here)
+:movie_camera: [YouTube Demo Link](https://youtu.be/YqOERi1Jjk8)
 
 ## 🚀&nbsp; Installation
 It is a software that can take feed from existing CCTV/IP cameras and show the results.<br />
+This system can be installed and is tested on Jetson Nano. The cost is Jetson nano is 99$.<br />
 
-We combined all the solutions together and made a single Graphical User Interface.<br />
+We combined all the above mentioned solutions together with a Graphical User Interface.<br />
 
 To set up on your local:
 1. Clone the repo
