@@ -1,4 +1,4 @@
-<h1 align="center">Covid-Sentine</h1>
+<h1 align="center">Artificial Intelligence Based Covid-19 Solution Compliance</h1>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
@@ -7,6 +7,10 @@
 [![Apache 2.0 License](https://img.shields.io/github/license/Sonali210/Covid-Sentine.svg?style=flat-square)](https://github.com/Sonali210/Covid-Sentine/blob/master/LICENSE)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+## :hourglass: Complete Project Demo
+:movie_camera: [YouTube Demo Link](https://youtu.be/YqOERi1Jjk8)
+
 <h3 align="center">AI Based Mask Detection System</h3>
 
 <div align= "center">
@@ -113,9 +117,6 @@ It is a software that can take feed from existing cameras and show the results.
 ✔ Our software detects red eyes and raises alert for probability of person being infected.<br />
 
 
-## :hourglass: Project Demo
-:movie_camera: [YouTube Demo Link](https://youtu.be/YqOERi1Jjk8)
-
 ## 🚀&nbsp; Installation
 It is a software that can take feed from existing CCTV/IP cameras and show the results.<br />
 This system can be installed and is tested on Jetson Nano. The cost is Jetson nano is 99$.<br />
@@ -145,7 +146,7 @@ $ python covid.py
 ```
 
 ## :heart: Owner
-Made with :heart:&nbsp; by [Gaurav Singh](https://github.com/gaurav82692) , [Sarthak Srivastava](https://github.com/codebugged) and [Sonali](https://github.com/Sonali210)
+Made with :heart:&nbsp; by [Sarthak Srivastava](https://github.com/codebugged) and [Sonali](https://github.com/Sonali210)
 
 ## :eyes: License
 Apache License 2.0
